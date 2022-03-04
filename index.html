@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Loop 2 - Challenge</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="./css/main.css" />
-</head>
-<body>
-
-  <!--
-    Ah, it smells like a new challenge!
-
-    This time we build a concept of some job search website.
-    It's more about small details this time and if you haven't yet tried splitting
-    your css into separate component files - that's the perfect time to try.
-    (Use @import in css to achieve that)
-
-    The other gimmick we introduce here is about using font icons instead of inserting images into our code.
-    The easiest out-of-the-box method is to use Google Material Icons,
-    so read about the implementation before you start:
-    https://material.io/icons/
-
-    And good luck!
-  -->
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Loop 2 - Challenge</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+		<div class="header">
+			<div class="container">
+				<div class="header-wrapper">
+					<div class="header-brand">
+						<div class="header-logo"><img src="img/logo.png" alt="" /></div>
+						<label class="header-search" for="search">
+							<input class="search" type="text" placeholder="Search" />
+							<span class="material-icons">search</span>
+						</label>
+					</div>
+					<ul class="header-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Profile</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Connections</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Interest</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link red" href="#">Try Premium</a>
+						</li>
+					</ul>
+					<div class="header-social">
+						<div class="header-icons">
+							<span class="material-icons">insert_comment</span>
+							<span class="material-icons">notifications</span>
+							<span class="material-icons">person_add</span>
+						</div>
+						<div class="header-profile">
+							<img src="img/avatar.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </body>
 </html>

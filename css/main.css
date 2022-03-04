@@ -1,0 +1,126 @@
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #f6f8f9;
+}
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.material-icons{
+    width: 20px;
+    height: 20px;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    border-bottom: 1px solid #dedede;
+}
+.header-wrapper{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-brand{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.header-logo, 
+.header-search{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-right: 1px solid #dedede;
+}
+.header-logo{
+    padding-left: 0;
+}
+.header-logo img{
+    width: 28px;
+    height: 28px;
+}
+.search{
+    width: 150px;
+    padding: 10px 25px 10px 10px;
+    border: 1px solid #dedede;
+    border-radius: 20px;
+    outline: none;
+}
+.header-search{
+    position: relative;
+}
+.header-search span{
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    transform: translateY(-50%);
+
+}
+.header-nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 0 0 50px;
+    border-right: 1px solid #dedede;
+}
+.nav-item{
+    margin-right: 34px;
+}
+.nav-item:last-child{
+    width: 91px;
+    margin-right: 50px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.red{
+    color: red;
+}
+.header-social{
+    display: flex;
+    align-items: center;
+}
+.header-profile{
+    padding-left: 20px;
+}
+.header-profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.header-icons{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-right: 1px solid #dedede;
+}
+.header-icons span{
+    margin-right: 34px;
+}
+.header-icons span:nth-child(1){
+    color: #2bcd71;
+}
+.header-icons span:nth-child(2){
+    color: #f1c40f;
+}
+.header-icons span:nth-child(3){
+    color: #9b58b6;
+}
+.header-icons span:last-child{
+    margin-right: 0;
+}
