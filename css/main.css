@@ -159,6 +159,11 @@ body {
 .main-section{
   margin-top: 20px;
 }
+div.main-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 /* PROFILE */
 .profile{
   padding: 20px;
@@ -166,6 +171,7 @@ body {
 .profile-section{
   width: 100%;
   max-width: 200px;
+  background-color: #fff;
   box-shadow: 0 0 0 1px #e8f4fc;
   text-align: center;
 }
@@ -241,4 +247,59 @@ body {
   padding: 20px 0;
   font-size: 14px;
   opacity: 0.6;
+}
+/* POST */
+.post-section{
+  width: 610px;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px #e8f4fc;
+}
+.post-section-header{
+  height: 60px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+.post-title{
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+.post-prev-next{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-prev-next span{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #0501ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-prev-next span:first-child{
+  margin-right: 6px;
+}
+.post-section-items{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-item-logo{
+  width: 176px;
+  height: 176px;
+}
+.post-item-title{
+  margin-top: 13px;
+  font-size: 14px;
+}
+.post-item-data{
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 10px;
 }
