@@ -424,3 +424,71 @@ div.main-wrapper {
 .education .experience-section__data{
   padding-left: 23px;
 }
+.skills{
+  padding-top: 0;
+}
+.skills-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+  padding-left: 23px;
+}
+.skills-item{
+  display: flex;
+  align-items: center;
+}
+.skills-item span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid #353535;
+  margin-right: 20px;
+}
+.skills-icon{
+  display: flex;
+  align-items: center;
+}
+.skills-icon div{
+  width: 42px;
+  height: 42px;
+  margin-right: 15px;
+}
+.skills-icon div img{
+  width: 100%;
+  border-radius: 50%;
+}
+.skills-icon div:last-child{
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 0;
+}
+/* INTERESTS */
+.interests{
+  padding-top: 0;
+}
+.btn-interests{
+  display: flex;
+  align-items: center;
+  padding-left: 23px;
+}
+.btn-item{
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  text-decoration: none;
+  color: #000;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.btn-item:last-child{
+  margin-right: 0;
+}
